@@ -54,7 +54,6 @@ for circleSpec in circleSpecs:
     circle = Circle(circleSpec[0], circleSpec[1], circleSpec[2])
     circles.append(circle)
 
-# Output
 for circle in circles:
     numPointsInCircle = 0
 
