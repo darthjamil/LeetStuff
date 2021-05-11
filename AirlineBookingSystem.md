@@ -48,8 +48,6 @@ request --> service discovery --> - LB --> account management API
 
 admin user/service --> LB --> flight entry API
 
-Services written in Node.
-
 ## Storage
 Flight Entry API   w--> SQL cluster (flights data)
                    w--> Elastic Search cluster
